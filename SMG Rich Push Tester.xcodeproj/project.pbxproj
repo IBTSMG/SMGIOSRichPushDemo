@@ -9,23 +9,111 @@
 /* Begin PBXBuildFile section */
 		8B3A7FA91D633A0D0089A076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A7FA81D633A0D0089A076 /* AppDelegate.swift */; };
 		8B3A7FAB1D633A0D0089A076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A7FAA1D633A0D0089A076 /* ViewController.swift */; };
-		8B3A7FAE1D633A0D0089A076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A7FAC1D633A0D0089A076 /* Main.storyboard */; };
-		8B3A7FB01D633A0D0089A076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A7FAF1D633A0D0089A076 /* Assets.xcassets */; };
 		8B3A7FB31D633A0D0089A076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A7FB11D633A0D0089A076 /* LaunchScreen.storyboard */; };
+		8B3A7FCB1D633BA50089A076 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A7FCA1D633BA50089A076 /* NotificationHandler.swift */; };
+		8B49DA771DBE13BE00F909EE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49DA761DBE13BE00F909EE /* UserNotifications.framework */; };
+		8B49DA791DBE13BE00F909EE /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49DA781DBE13BE00F909EE /* UserNotificationsUI.framework */; };
+		8B49DA7C1DBE13BE00F909EE /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B49DA7B1DBE13BE00F909EE /* NotificationViewController.swift */; };
+		8B49DA7F1DBE13BE00F909EE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B49DA7D1DBE13BE00F909EE /* MainInterface.storyboard */; };
+		8B49DA831DBE13BE00F909EE /* NotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B49DA741DBE13BE00F909EE /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B49DA881DC9ECAE00F909EE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B49DA871DC9ECAE00F909EE /* MapViewController.swift */; };
+		8B49DA8A1DCA2B6800F909EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B49DA891DCA2B6800F909EE /* MapKit.framework */; };
+		8B49DA8C1DCB6F3700F909EE /* AtmLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B49DA8B1DCB6F3700F909EE /* AtmLocation.swift */; };
+		8B4A1B621D64599100D90A6B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A1B611D64599100D90A6B /* NotificationService.swift */; };
+		8B4A1B661D64599100D90A6B /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B4A1B5F1D64599100D90A6B /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B99AEC61D6436AF00A1BCB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B99AEC51D6436AF00A1BCB5 /* Default.png */; };
+		8B9FE7411DCC7EA700B8EF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B49DA8F1DCC770800F909EE /* Assets.xcassets */; };
+		8BABDD641DDC592100622614 /* Rotating_earth_(large).gif in Resources */ = {isa = PBXBuildFile; fileRef = 8BABDD631DDC592100622614 /* Rotating_earth_(large).gif */; };
+		8BCCCD051DE4202B006C300A /* istanbul-kiz-kulesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BCCCD041DE4202B006C300A /* istanbul-kiz-kulesi.jpg */; };
+		8BCCCD071DE4282F006C300A /* Kiz Kulesi Istanbul.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8BCCCD061DE4282F006C300A /* Kiz Kulesi Istanbul.mp4 */; };
+		8BEED85B1DD0C24000759ED2 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8BEED85A1DD0C24000759ED2 /* Base.lproj */; };
+		8BEED85E1DD0C25300759ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEED85C1DD0C25300759ED2 /* Main.storyboard */; };
+		8BF4444F1D66CF3D0063A3BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4444E1D66CF3D0063A3BC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8B49DA811DBE13BE00F909EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3A7F9D1D633A0D0089A076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B49DA731DBE13BE00F909EE;
+			remoteInfo = NotificationContent;
+		};
+		8B4A1B641D64599100D90A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3A7F9D1D633A0D0089A076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4A1B5E1D64599100D90A6B;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B3A7FC91D633A4D0089A076 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B4A1B661D64599100D90A6B /* NotificationService.appex in Embed App Extensions */,
+				8B49DA831DBE13BE00F909EE /* NotificationContent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8B31F16E1DF5AE07008830B7 /* NotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationContent.entitlements; sourceTree = "<group>"; };
 		8B3A7FA51D633A0D0089A076 /* SMG Rich Push Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMG Rich Push Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A7FA81D633A0D0089A076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B3A7FAA1D633A0D0089A076 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B3A7FAD1D633A0D0089A076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B3A7FAF1D633A0D0089A076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3A7FB21D633A0D0089A076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3A7FB41D633A0D0089A076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3A7FCA1D633BA50089A076 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		8B49DA741DBE13BE00F909EE /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B49DA761DBE13BE00F909EE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		8B49DA781DBE13BE00F909EE /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		8B49DA7B1DBE13BE00F909EE /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		8B49DA7E1DBE13BE00F909EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8B49DA801DBE13BE00F909EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B49DA871DC9ECAE00F909EE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B49DA891DCA2B6800F909EE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B49DA8B1DCB6F3700F909EE /* AtmLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmLocation.swift; sourceTree = "<group>"; };
+		8B49DA8F1DCC770800F909EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4A1B5F1D64599100D90A6B /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4A1B611D64599100D90A6B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8B4A1B631D64599100D90A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4A1B6A1D6459BD00D90A6B /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		8B99AEC51D6436AF00A1BCB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BABDD631DDC592100622614 /* Rotating_earth_(large).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Rotating_earth_(large).gif"; sourceTree = "<group>"; };
+		8BCCCD041DE4202B006C300A /* istanbul-kiz-kulesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "istanbul-kiz-kulesi.jpg"; sourceTree = "<group>"; };
+		8BCCCD061DE4282F006C300A /* Kiz Kulesi Istanbul.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kiz Kulesi Istanbul.mp4"; sourceTree = "<group>"; };
+		8BEED85A1DD0C24000759ED2 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		8BEED85D1DD0C25300759ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF014141D64344D00E34CE9 /* SMG Rich Push Tester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SMG Rich Push Tester.entitlements"; sourceTree = "<group>"; };
+		8BF4444E1D66CF3D0063A3BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B3A7FA21D633A0D0089A076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B49DA8A1DCA2B6800F909EE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B49DA711DBE13BE00F909EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B49DA791DBE13BE00F909EE /* UserNotificationsUI.framework in Frameworks */,
+				8B49DA771DBE13BE00F909EE /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4A1B5C1D64599100D90A6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +126,14 @@
 		8B3A7F9C1D633A0D0089A076 = {
 			isa = PBXGroup;
 			children = (
+				8BCCCD061DE4282F006C300A /* Kiz Kulesi Istanbul.mp4 */,
+				8BCCCD041DE4202B006C300A /* istanbul-kiz-kulesi.jpg */,
+				8BABDD631DDC592100622614 /* Rotating_earth_(large).gif */,
+				8B99AEC51D6436AF00A1BCB5 /* Default.png */,
 				8B3A7FA71D633A0D0089A076 /* SMG Rich Push Tester */,
+				8B4A1B601D64599100D90A6B /* NotificationService */,
+				8B49DA7A1DBE13BE00F909EE /* NotificationContent */,
+				8B49DA751DBE13BE00F909EE /* Frameworks */,
 				8B3A7FA61D633A0D0089A076 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				8B3A7FA51D633A0D0089A076 /* SMG Rich Push Tester.app */,
+				8B4A1B5F1D64599100D90A6B /* NotificationService.appex */,
+				8B49DA741DBE13BE00F909EE /* NotificationContent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +151,51 @@
 		8B3A7FA71D633A0D0089A076 /* SMG Rich Push Tester */ = {
 			isa = PBXGroup;
 			children = (
+				8BEED85A1DD0C24000759ED2 /* Base.lproj */,
+				8B49DA8F1DCC770800F909EE /* Assets.xcassets */,
+				8B49DA871DC9ECAE00F909EE /* MapViewController.swift */,
+				8BF014141D64344D00E34CE9 /* SMG Rich Push Tester.entitlements */,
 				8B3A7FA81D633A0D0089A076 /* AppDelegate.swift */,
 				8B3A7FAA1D633A0D0089A076 /* ViewController.swift */,
-				8B3A7FAC1D633A0D0089A076 /* Main.storyboard */,
-				8B3A7FAF1D633A0D0089A076 /* Assets.xcassets */,
+				8BEED85C1DD0C25300759ED2 /* Main.storyboard */,
 				8B3A7FB11D633A0D0089A076 /* LaunchScreen.storyboard */,
 				8B3A7FB41D633A0D0089A076 /* Info.plist */,
+				8B3A7FCA1D633BA50089A076 /* NotificationHandler.swift */,
+				8BF4444E1D66CF3D0063A3BC /* Constants.swift */,
+				8B49DA8B1DCB6F3700F909EE /* AtmLocation.swift */,
 			);
 			path = "SMG Rich Push Tester";
+			sourceTree = "<group>";
+		};
+		8B49DA751DBE13BE00F909EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B49DA891DCA2B6800F909EE /* MapKit.framework */,
+				8B49DA761DBE13BE00F909EE /* UserNotifications.framework */,
+				8B49DA781DBE13BE00F909EE /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B49DA7A1DBE13BE00F909EE /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				8B31F16E1DF5AE07008830B7 /* NotificationContent.entitlements */,
+				8B49DA7B1DBE13BE00F909EE /* NotificationViewController.swift */,
+				8B49DA7D1DBE13BE00F909EE /* MainInterface.storyboard */,
+				8B49DA801DBE13BE00F909EE /* Info.plist */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		8B4A1B601D64599100D90A6B /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				8B4A1B6A1D6459BD00D90A6B /* NotificationService.entitlements */,
+				8B4A1B611D64599100D90A6B /* NotificationService.swift */,
+				8B4A1B631D64599100D90A6B /* Info.plist */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +208,52 @@
 				8B3A7FA11D633A0D0089A076 /* Sources */,
 				8B3A7FA21D633A0D0089A076 /* Frameworks */,
 				8B3A7FA31D633A0D0089A076 /* Resources */,
+				8B3A7FC91D633A4D0089A076 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8B4A1B651D64599100D90A6B /* PBXTargetDependency */,
+				8B49DA821DBE13BE00F909EE /* PBXTargetDependency */,
 			);
 			name = "SMG Rich Push Tester";
 			productName = "SMG Rich Push Tester";
 			productReference = 8B3A7FA51D633A0D0089A076 /* SMG Rich Push Tester.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8B49DA731DBE13BE00F909EE /* NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B49DA841DBE13BF00F909EE /* Build configuration list for PBXNativeTarget "NotificationContent" */;
+			buildPhases = (
+				8B49DA701DBE13BE00F909EE /* Sources */,
+				8B49DA711DBE13BE00F909EE /* Frameworks */,
+				8B49DA721DBE13BE00F909EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationContent;
+			productName = NotificationContent;
+			productReference = 8B49DA741DBE13BE00F909EE /* NotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8B4A1B5E1D64599100D90A6B /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4A1B671D64599100D90A6B /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				8B4A1B5B1D64599100D90A6B /* Sources */,
+				8B4A1B5C1D64599100D90A6B /* Frameworks */,
+				8B4A1B5D1D64599100D90A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 8B4A1B5F1D64599100D90A6B /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +269,37 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = JYG28436PQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					8B49DA731DBE13BE00F909EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JYG28436PQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					8B4A1B5E1D64599100D90A6B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JYG28436PQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +317,8 @@
 			projectRoot = "";
 			targets = (
 				8B3A7FA41D633A0D0089A076 /* SMG Rich Push Tester */,
+				8B4A1B5E1D64599100D90A6B /* NotificationService */,
+				8B49DA731DBE13BE00F909EE /* NotificationContent */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +329,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3A7FB31D633A0D0089A076 /* LaunchScreen.storyboard in Resources */,
-				8B3A7FB01D633A0D0089A076 /* Assets.xcassets in Resources */,
-				8B3A7FAE1D633A0D0089A076 /* Main.storyboard in Resources */,
+				8BEED85E1DD0C25300759ED2 /* Main.storyboard in Resources */,
+				8BABDD641DDC592100622614 /* Rotating_earth_(large).gif in Resources */,
+				8BCCCD071DE4282F006C300A /* Kiz Kulesi Istanbul.mp4 in Resources */,
+				8B9FE7411DCC7EA700B8EF7E /* Assets.xcassets in Resources */,
+				8BCCCD051DE4202B006C300A /* istanbul-kiz-kulesi.jpg in Resources */,
+				8BEED85B1DD0C24000759ED2 /* Base.lproj in Resources */,
+				8B99AEC61D6436AF00A1BCB5 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B49DA721DBE13BE00F909EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B49DA7F1DBE13BE00F909EE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4A1B5D1D64599100D90A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +362,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B3A7FAB1D633A0D0089A076 /* ViewController.swift in Sources */,
+				8B3A7FCB1D633BA50089A076 /* NotificationHandler.swift in Sources */,
 				8B3A7FA91D633A0D0089A076 /* AppDelegate.swift in Sources */,
+				8B49DA8C1DCB6F3700F909EE /* AtmLocation.swift in Sources */,
+				8B49DA881DC9ECAE00F909EE /* MapViewController.swift in Sources */,
+				8BF4444F1D66CF3D0063A3BC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B49DA701DBE13BE00F909EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B49DA7C1DBE13BE00F909EE /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4A1B5B1D64599100D90A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4A1B621D64599100D90A6B /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		8B3A7FAC1D633A0D0089A076 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B3A7FAD1D633A0D0089A076 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		8B49DA821DBE13BE00F909EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B49DA731DBE13BE00F909EE /* NotificationContent */;
+			targetProxy = 8B49DA811DBE13BE00F909EE /* PBXContainerItemProxy */;
 		};
+		8B4A1B651D64599100D90A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4A1B5E1D64599100D90A6B /* NotificationService */;
+			targetProxy = 8B4A1B641D64599100D90A6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		8B3A7FB11D633A0D0089A076 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8B3A7FB21D633A0D0089A076 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B49DA7D1DBE13BE00F909EE /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B49DA7E1DBE13BE00F909EE /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEED85C1DD0C25300759ED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEED85D1DD0C25300759ED2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,11 +525,13 @@
 		8B3A7FB81D633A0D0089A076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SMG Rich Push Tester/SMG Rich Push Tester.entitlements";
 				DEVELOPMENT_TEAM = JYG28436PQ;
 				INFOPLIST_FILE = "SMG Rich Push Tester/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibtech.SMG-Rich-Push-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,12 +540,70 @@
 		8B3A7FB91D633A0D0089A076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SMG Rich Push Tester/SMG Rich Push Tester.entitlements";
 				DEVELOPMENT_TEAM = JYG28436PQ;
 				INFOPLIST_FILE = "SMG Rich Push Tester/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ibtech.SMG-Rich-Push-Tester";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B49DA851DBE13BF00F909EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JYG28436PQ;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester.NotificationContent2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B49DA861DBE13BF00F909EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JYG28436PQ;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester.NotificationContent2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B4A1B681D64599100D90A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				DEVELOPMENT_TEAM = JYG28436PQ;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B4A1B691D64599100D90A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				DEVELOPMENT_TEAM = JYG28436PQ;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibtech.smg.rich.push.tester.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +627,25 @@
 				8B3A7FB91D633A0D0089A076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B49DA841DBE13BF00F909EE /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B49DA851DBE13BF00F909EE /* Debug */,
+				8B49DA861DBE13BF00F909EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4A1B671D64599100D90A6B /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4A1B681D64599100D90A6B /* Debug */,
+				8B4A1B691D64599100D90A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
